@@ -26,8 +26,8 @@ session.setAttribute("pwd", password);
 if(uName != null && password != null )
 {
 Class.forName("com.mysql.jdbc.Driver");
-String url="jdbc:mysql://localhost:3306/bloggerdb";
-Connection con=DriverManager.getConnection(url, "root", "root");
+String url="jdbc:mysql://172.30.236.205:3306/sampledb";
+Connection con=DriverManager.getConnection(url, "sujay", "sujay");
 
 Statement stmt=con.createStatement();
 String query="select * from login";
