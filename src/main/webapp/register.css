@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+  body
+        {
+         background: linear-gradient(60deg,black,darkgray,black);
+        }
+      .register
+      {
+          position: absolute;
+          width: 500px;
+          height: 580px;
+          margin-left: 450px;
+          padding: 10px;
+      }
+
+      .register h2
+      {
+          margin-left: 100px;
+          color: white;
+      }
+      .text_field
+      {
+          width:100%;
+          margin-bottom: 10px;
+      }
+
+     .text_field input[type="text"],
+      .text_field input[type="password"],
+      .text_field input[type="email"],
+      .text_field input[type="submit"]
+      {
+          width: 60%;
+          height: 45px;
+          outline: none;
+          border: 1px solid #ddd;
+          padding: 0 10px;
+          border-radius: 2px;
+          color: black;
+          font-size: 80%;
+      }
+
+      
+      .text_field input[type="submit"]
+      {
+          background-color: darkorange;
+      }
+
+      .register-form{
+          position:relative;
+          float: left;
+          width: 100%;
+          height:auto;
+          margin-top: 20px;
+          text-align:center;
+      }

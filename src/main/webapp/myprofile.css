@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+  body
+        {
+            background: linear-gradient(white,skyblue,white,skyblue);
+        }
+
+        a
+        {
+            font-size: large;
+            color: black;
+        }
+
+        .table-user-information > tbody > tr > td
+        {
+            padding: 20px;
+        }
+
+        .toppad
+        {
+            margin-top:50px;
+        }

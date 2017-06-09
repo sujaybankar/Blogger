@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+    body
+        {
+         background-image: url("images/b6.jpg");
+        }
+        .login-box {
+            position: absolute;
+            margin: 200px;
+            width: 400px;
+            height: 300px;
+            margin-left: 450px;
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+         .head1
+         {
+             color: black;
+             margin-left: 170px;
+         }
+        .user-login{
+            position:relative;
+            float: left;
+            width: 100%;
+            height:auto;
+            margin-top: 20px;
+            text-align:center;
+        }
+        .u-form-group{
+            width:100%;
+            margin-bottom: 10px;
+        }
+        .u-form-group input[type="text"],
+        .u-form-group input[type="password"]{
+            width: 45%;
+            height:45px;
+            outline: none;
+            border: 1px solid #ddd;
+            padding: 0 10px;
+            border-radius: 2px;
+            color: black;
+            font-size: 80%;
+
+        }
+
+        .u-form-group input[type="submit"]{
+            width:50%;
+            background-color: green;
+            color: white;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 14px;
+        }
