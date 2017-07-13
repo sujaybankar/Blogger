@@ -19,8 +19,8 @@
 <jsp:include page="header.jsp"></jsp:include>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-String url="jdbc:mysql://172.30.236.205:3306/sampledb";
-Connection con=DriverManager.getConnection(url,"sujay","sujay");
+String url="jdbc:mysql://10.129.24.141:3306/sampledb";
+Connection con=DriverManager.getConnection(url,"mysql","root");
 
 Statement stmt=con.createStatement();
 String query="select b.blogid,r.first_name,r.last_name,b.BlogContent,b.BlogTitle,b.createdDate from registration r inner join blogs b on r.login_name=b.login_name"; 
