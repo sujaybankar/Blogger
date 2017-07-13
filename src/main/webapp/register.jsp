@@ -31,8 +31,8 @@ if(fName != null && lName!=null && logName!=null && password != null && password
  if(password.equals(password1))
  {
   	Class.forName("com.mysql.jdbc.Driver");
-	String url="jdbc:mysql://172.30.236.205:3306/sampledb";
-	Connection con=DriverManager.getConnection(url,"sujay","sujay");
+	String url="jdbc:mysql://10.129.24.141:3306/sampledb";
+	Connection con=DriverManager.getConnection(url,"mysql","root");
 
 	PreparedStatement pstmt=con.prepareStatement("insert into registration values(?,?,?,?,?,?,?)");
 	pstmt.setString(1, fName);
