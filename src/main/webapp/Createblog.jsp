@@ -29,7 +29,7 @@ if(title != null && blog != null && createdDate !=null)
 {
 	Class.forName("com.mysql.jdbc.Driver");
 	String url="jdbc:mysql://10.129.24.141:3306/sampledb";
-	Connection con=DriverManager.getConnection(url,"mysql","mysql");
+	Connection con=DriverManager.getConnection(url,"mysql","root");
 
  
     String uName=(String)session.getAttribute("uname");
