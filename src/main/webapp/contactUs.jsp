@@ -29,8 +29,8 @@ String message=request.getParameter("feedback");
 if(name != null && email != null && contact !=null && message !=null)
 {
  Class.forName("com.mysql.jdbc.Driver");
- String url="jdbc:mysql://172.30.236.205:3306/sampledb";
- Connection con=DriverManager.getConnection(url,"sujay","sujay");
+ String url="jdbc:mysql://10.129.24.141:3306/sampledb";
+ Connection con=DriverManager.getConnection(url,"mysql","root");
 
  PreparedStatement pstmt=con.prepareStatement("insert into ContactUs values(?,?,?,?,?)");
 	pstmt.setString(1,id);
