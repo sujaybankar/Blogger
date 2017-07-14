@@ -21,7 +21,7 @@
 <jsp:include page="header1.jsp"></jsp:include>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-String url="jdbc:mysql://172.30.55.21:3306/sampledb";
+String url="jdbc:mysql://10.1.0.103:3306/sampledb";
 Connection con=DriverManager.getConnection(url,"mysql","root");
 
 String name=(String)session.getAttribute("uname");
