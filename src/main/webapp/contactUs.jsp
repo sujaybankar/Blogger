@@ -55,9 +55,9 @@ if(name != null && email != null && contact !=null && message !=null)
     </center>
 
     <div class="jumbotron text-center">
-        <div> Phone No:9156047105</div>
-        <div> Email:Blogger@gmail.com</div>
-        <div>Support EMail:supported.blogger@gmail.com</div>
+        <div>Mobile No.9665988415</div>
+        <div> Email:sujaybankar@gmail.com</div>
+        <div>Support EMail:supporte.blogger@gmail.com</div>
     </div>
     
 <form class="query-form" method="post">
