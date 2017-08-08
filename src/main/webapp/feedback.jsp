@@ -28,8 +28,8 @@ String feedback=request.getParameter("feedback");
 if(name != null && email != null && contact !=null && feedback !=null)
 {
  Class.forName("com.mysql.jdbc.Driver");
- String url="jdbc:mysql://10.1.6.173:3306/sampledb";
- Connection con=DriverManager.getConnection(url,"mysql","root");
+ String url="jdbc:mysql://10.1.2.157:3306/sampledb";
+ Connection con=DriverManager.getConnection(url,"sujay","sujay");
 
  PreparedStatement pstmt=con.prepareStatement("insert into feedback values(?,?,?,?)");
 	
