@@ -39,8 +39,8 @@
 
 <%
 Class.forName("com.mysql.jdbc.Driver");
-String url="jdbc:mysql://10.1.6.173:3306/sampledb";
-Connection con=DriverManager.getConnection(url,"mysql","root");
+String url="jdbc:mysql://10.1.2.157:3306/sampledb";
+Connection con=DriverManager.getConnection(url,"sujay","sujay");
 
 int blogid=Integer.parseInt(request.getParameter("blogid"));
 
