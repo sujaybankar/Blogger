@@ -28,8 +28,8 @@ String createdDate=date.toString();
 if(title != null && blog != null && createdDate !=null)
 {
 	Class.forName("com.mysql.jdbc.Driver");
-	String url="jdbc:mysql://10.1.6.173:3306/sampledb";
-	Connection con=DriverManager.getConnection(url,"mysql","root");
+	String url="jdbc:mysql://10.1.2.157:3306/sampledb";
+	Connection con=DriverManager.getConnection(url,"sujay","sujay");
 
  
     String uName=(String)session.getAttribute("uname");
